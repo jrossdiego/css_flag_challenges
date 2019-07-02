@@ -1,8 +1,45 @@
-/* Indonesia */
-
+body {
+  background-color:black;
+}
+.flagContainer {
+  height: 25vh;
+  width: 50%;
+  margin-bottom: 5vh;
+}
+.flagSpacer {
+  background-color: black;
+  height: 30%;
+}
 /* Colombia */
+/* Indonesia */
+#indonesia {
+  background-color: red;
+  }
+#indonesia *:nth-child(1) {
+  background-color:yellow;
+  height:50%;
+}
+#indonesia :nth-child(2) {
+  background-color: blue;
+  height:25%;
+}
 
 /* Ireland */
+#ireland {
+  display:flex;
+}
+#ireland > div  {
+  width: 100%;
+}
+#ireland :nth-child(1) {
+  background-color:green;
+}
+#ireland :nth-child(2) {
+  background-color:white;
+}
+#ireland :nth-child(3) {
+  background-color:orange;
+}
 
 /* France */
 
